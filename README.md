@@ -47,7 +47,7 @@ We compile the model and fit the train sets and validation sets,We plot the nece
 ## Developed By:KARUNIYA M
 ## Register Number:212223240068
 
-
+```
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -154,7 +154,7 @@ print("{:15}{:5}\t {}\n".format("Word", "True", "Pred"))
 print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
-
+```
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
